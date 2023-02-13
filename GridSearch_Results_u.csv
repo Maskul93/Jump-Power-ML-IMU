@@ -1,0 +1,21 @@
+Architecture,Hyperparameter,Best Choice
+kNN,algorithm,ball_tree
+,leaf_size,1
+,n_neighbors,2
+,weights,distance
+,elapsed time,78.128
+SVM,C,1.0
+,epsilon,0.4
+,gamma,auto
+,kernel,linear
+,elapsed time,13.949
+RF,ccp_alpha,0.1
+,criterion,absolute_error
+,max_features,None
+,min_samples_split,3
+,n_estimators,8
+,elapsed time,431.09
+MLP,activation,relu
+,hidden_layer_sizes,2
+,solver,sgd
+,elapsed time,22.917
